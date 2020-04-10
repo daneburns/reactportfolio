@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
         <div className="container">
-            <span className='text-muted'>Footer Content</span>
+            <span className='text-right text-white'>Dane Burns©</span>
         </div>
     </footer>
 

@@ -3,6 +3,7 @@ import profilePic from "./dane.png";
 import linkedInLogo from "./linkedIn.png";
 import gitHubLogo from "./github.png";
 import resumeLogo from "./resume.png"
+import resumePDF from "./daneResume.pdf"
 
 function Home() {
   return (
@@ -19,16 +20,15 @@ function Home() {
             <h1 className="text-center text-white">About Me</h1>
             <p className="text-white">
               {" "}
-              I am a Fullstack Developer based in Phoenix, Arizona. All roads
-              lead to software development. Aenean volutpat erat et elit
-              bibendum cursus. Ut iaculis in arcu ac maximus. Mauris maximus
-              lacus at nisi consequat viverra. Vestibulum mattis eu odio et
-              feugiat. Pellentesque vestibulum maximus blandit. Maecenas velit
-              libero, maximus ac sagittis ut, lobortis et metus. Donec convallis
-              tortor eu bibendum convallis. Phasellus congue pharetra lacus sed
-              tincidunt. Donec mollis finibus euismod. Nullam efficitur et metus
-              in egestas.
+              I am a Fullstack Developer based in Phoenix, Arizona.
             </p>
+            <ul className='text-white'>
+              Technologies I like to work with:
+              <li>React</li>
+              <li>MongoDB</li>
+              <li>Animation + Data Visualization libraries (d3, anime.js, animate.css) </li>
+              <li>Express js</li>
+            </ul>
           </div>
         </div>
         <div className="d-flex flex-row justify-content-center p-2 w-100">
@@ -38,7 +38,7 @@ function Home() {
           <a href="https://github.com/daneburns">
             <img className="thumboi" src={gitHubLogo}></img>
           </a>
-          <a href="https://github.com/daneburns">
+          <a href={resumePDF} download>
             <img className="thumboi" src={resumeLogo}></img>
           </a>
         </div>
