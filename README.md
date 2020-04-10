@@ -2,6 +2,8 @@
 # React Portfolio 
 #### A new take on my portfolio website, rebuilt using React. 
 
+### deployed link: https://heuristic-noyce-b1793e.netlify.com/
+
 ## Table Of Contents:
   1. Installation 
   2. License
